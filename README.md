@@ -7,6 +7,8 @@ A responsive spelling-learning website and spelling-bee test, built with plain H
 - `index.html`: word library with meanings, historical roots/source forms, memory chunks, pronunciation, difficulty filters, and spelling practice.
 - `Test.html`: random test rounds with meaning clues, spoken pronunciation, typed or spoken-letter answers, hints, encouragement, and scores.
 
+All 499 supplied entries have original embedded vector picture clues and descriptive captions. Some scenes are symbolic memory aids for abstract ideas; related words can share motifs. In tests, pictures stay hidden until the learner asks for a clue. These are original illustrations, not images from the book.
+
 Both pages contain their own data. There are no dependencies or build steps. GitHub Pages can publish the `main` branch from the repository root.
 
 ## Content status
