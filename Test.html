@@ -396,7 +396,7 @@ function updateScore(){$('test-score').textContent='First-try score · '+outcome
 function settle(result){
  settled=true;stopListening();stopAudio();outcomes.push({entry:activeWord(),result,firstTry:firstAttempt===true});
  $('test-answer').disabled=true;$('test-check').disabled=true;$('test-reveal').disabled=true;$('test-mic').disabled=true;$('clear-voice').disabled=true;
- $('test-hint-button').classList.add('hidden');$('test-next').disabled=false;
+ $('test-hint-button').classList.add('hidden');$('test-hint').classList.add('hidden');$('test-next').disabled=false;
  $('review-word').href='index.html#word-'+activeWord().number;$('review-word').classList.remove('hidden');updateScore();
 }
 function checkAnswer(event){
